@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="海边日出">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4a261"/>
+      <stop offset=".55" stop-color="#e76f51"/>
+      <stop offset="1" stop-color="#7d4a75"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c66a8c"/>
+      <stop offset="1" stop-color="#24365c"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#sky)"/>
+  <circle cx="680" cy="380" r="132" fill="#ffd8a8" opacity=".92"/>
+  <path d="M0 470 C190 402 340 498 505 452 C690 400 820 474 960 432 L960 720 L0 720 Z" fill="url(#sea)"/>
+  <path d="M0 560 C180 528 340 600 520 568 C700 536 850 582 960 556 L960 720 L0 720 Z" fill="#273a63" opacity=".88"/>
+  <path d="M0 655 C250 630 430 676 650 650 C810 630 900 664 960 652 L960 720 L0 720 Z" fill="#101d36"/>
+  <path d="M85 486 L132 486 L132 572 L85 572 Z" fill="#2b2944" opacity=".9"/>
+  <path d="M62 548 L155 548 L135 566 L80 566 Z" fill="#2b2944" opacity=".9"/>
+  <path d="M470 472 L468 447 L490 444 L492 469 Z" fill="#f7f0da"/>
+  <path d="M467 472 C452 520 507 537 493 472 Z" fill="#f7f0da" opacity=".55"/>
+  <path d="M708 452 L756 452 L756 556 L708 556 Z" fill="#35254f" opacity=".95"/>
+  <path d="M738 400 L782 400 L782 556 L738 556 Z" fill="#4f2f55" opacity=".9"/>
+  <rect x="828" y="428" width="62" height="128" fill="#35254f" opacity=".9"/>
+  <path d="M0 470 L35 470 L35 450 L50 450 L50 470 L76 470 L76 444 L90 444 L90 470 L112 470 L112 430 L126 430 L126 470 L150 470 L150 452 L166 452 L166 470 L194 470 L194 440 L208 440 L208 470" stroke="#ffe6c8" stroke-width="5" fill="none" opacity=".7"/>
+</svg>
