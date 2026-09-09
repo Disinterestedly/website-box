@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="动画题材海报">
+  <defs>
+    <linearGradient id="fsky2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2b76e"/>
+      <stop offset=".48" stop-color="#e96d68"/>
+      <stop offset="1" stop-color="#76518a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#fsky2)"/>
+  <circle cx="466" cy="142" r="76" fill="#ffe9a8"/>
+  <path d="M-50 560 L120 330 L290 560 Z" fill="#44386b" opacity=".78"/>
+  <path d="M80 600 L240 350 L400 600 Z" fill="#644d75"/>
+  <path d="M220 620 L360 410 L520 620 Z" fill="#523b5b"/>
+  <rect x="0" y="620" width="600" height="280" fill="#2c2947"/>
+  <path d="M190 560 C180 470 200 430 250 350 C260 440 300 460 310 560 Z" fill="#f5bd69"/>
+  <path d="M220 455 C260 420 340 430 390 480 C450 545 470 620 470 900 L-50 900 C-40 680 40 610 220 560 Z" fill="#ed6b62"/>
+  <path d="M300 900 C300 650 360 640 365 500 C430 660 500 720 540 900 Z" fill="#432f4e"/>
+  <path d="M320 900 L360 540 L404 900 Z" fill="#f4c175"/>
+  <path d="M0 770 L600 770 L600 900 L0 900 Z" fill="#1c1c38" opacity=".65"/>
+</svg>
