@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-label="晨雾森林">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dce9e4"/>
+      <stop offset="1" stop-color="#b9d3c4"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fa38d"/>
+      <stop offset="1" stop-color="#2e5747"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#fsky)"/>
+  <circle cx="740" cy="130" r="60" fill="#f8efe0" opacity=".9"/>
+  <path d="M-30 390 L150 150 L322 392 Z" fill="#446b57"/>
+  <path d="M130 400 L312 76 L500 400 Z" fill="#3c6952"/>
+  <path d="M300 398 L520 136 L740 398 Z" fill="#4b8062"/>
+  <path d="M540 398 L760 126 L985 398 Z" fill="#35664e"/>
+  <rect x="0" y="398" width="960" height="322" fill="url(#lake)"/>
+  <path d="M0 428 C140 408 330 434 500 420 C690 405 850 426 960 414 L960 720 L0 720 Z" fill="#1f4034" opacity=".55"/>
+  <path d="M0 510 C190 486 360 528 580 510 C740 497 870 516 960 506 L960 720 L0 720 Z" fill="#17332a" opacity=".7"/>
+  <path d="M0 0 L0 720 M80 0 L80 720 M160 0 L160 720 M240 0 L240 720 M320 0 L320 720 M400 0 L400 720 M480 0 L480 720 M560 0 L560 720 M640 0 L640 720 M720 0 L720 720 M800 0 L800 720 M880 0 L880 720" stroke="#eef6f0" stroke-width="44" opacity=".28"/>
+  <path d="M-40 680 L-40 342 C90 330 180 348 270 330 C350 314 470 308 580 322 C700 338 850 322 1000 302 L1000 680 Z" fill="#f7fbf8" opacity=".18"/>
+  <ellipse cx="490" cy="470" rx="320" ry="70" fill="#bfd8cc" opacity=".24"/>
+</svg>
