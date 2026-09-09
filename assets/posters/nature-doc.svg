@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="自然纪录题材海报">
+  <defs>
+    <linearGradient id="nsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e6c8"/>
+      <stop offset=".35" stop-color="#d9c27e"/>
+      <stop offset="1" stop-color="#3f6b50"/>
+    </linearGradient>
+    <linearGradient id="nm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#93b46b"/>
+      <stop offset="1" stop-color="#2c6549"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#nsky)"/>
+  <path d="M0 400 C90 360 190 376 280 330 C390 275 520 300 600 280 L600 900 L0 900 Z" fill="url(#nm)"/>
+  <path d="M0 620 C130 560 260 640 410 590 C520 552 570 580 600 570 L600 900 L0 900 Z" fill="#2c593f" opacity=".8"/>
+  <path d="M70 330 L160 165 L250 330 Z" fill="#283e38"/>
+  <path d="M220 330 L320 150 L420 330 Z" fill="#3f5e4d"/>
+  <path d="M380 330 L480 190 L580 330 Z" fill="#1f4034"/>
+  <path d="M480 0 C410 150 430 240 520 330 C580 385 600 470 600 560 L600 0 Z" fill="#294f3e" opacity=".72"/>
+  <circle cx="452" cy="206" r="24" fill="#f6e9cf"/>
+  <path d="M500 220 C490 260 450 270 460 304 C430 298 444 244 500 220 Z" fill="#283e38"/>
+  <path d="M0 780 L600 780 L600 900 L0 900 Z" fill="#183326" opacity=".85"/>
+</svg>
