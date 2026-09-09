@@ -11,7 +11,7 @@
   var modalSection = "websites";
   var editingId = null;
 
-  var WEBSITE_CATEGORIES = ["工具", "开发", "设计", "学习", "知识", "资讯", "阅读", "艺术", "素材", "生活"];
+  var WEBSITE_CATEGORIES = ["收藏", "工具", "VPN", "开发", "设计", "学习", "知识", "资讯", "阅读", "艺术", "素材", "生活"];
   var FILM_CATEGORIES = ["电影", "剧集", "纪录片", "动漫"];
   var FILM_STATES = ["想看", "正在看", "已看"];
 
@@ -206,6 +206,7 @@
       });
     });
     seed.version = 1;
+    seed.seedVersion = 2;
     seed.savedAt = now;
     return seed;
   }
@@ -241,6 +242,27 @@
           });
           parsed.version = 1;
           parsed.savedAt = parsed.savedAt || now;
+          var seedVersion = Number(parsed.seedVersion || 1);
+          if (seedVersion < 2) {
+            var homeId = "seed-site-website-box-home";
+            var hasHome = parsed.websites.some(function (item) {
+              return item.id === homeId || item.url === "https://disinterestedly.github.io/website-box/";
+            });
+            if (!hasHome) {
+              parsed.websites.unshift({
+                id: homeId,
+                name: "网站盒子主页",
+                url: "https://disinterestedly.github.io/website-box/",
+                category: "收藏",
+                description: "这个网站盒子的公网主页，适合在手机和电脑上快速打开。",
+                tags: ["自建", "主页"],
+                starred: true,
+                createdAt: now
+              });
+            }
+            parsed.seedVersion = 2;
+            parsed._needsPersist = true;
+          }
           return parsed;
         }
       } catch (error) {
@@ -906,6 +928,10 @@
         saveState();
       } else {
         state = loadState();
+        if (state._needsPersist) {
+          state._needsPersist = false;
+          saveState();
+        }
       }
     } else {
       state = seedState();
