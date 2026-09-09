@@ -8,6 +8,16 @@ window.SEED_DATA = (function () {
   return {
     websites: [
       {
+        id: "seed-site-website-box-home",
+        name: "网站盒子主页",
+        url: "https://disinterestedly.github.io/website-box/",
+        category: "收藏",
+        description: "这个网站盒子的公网主页，适合在手机和电脑上快速打开。",
+        tags: ["自建", "主页"],
+        starred: true,
+        createdAt: at(0)
+      },
+      {
         id: "seed-site-github",
         name: "GitHub",
         url: "https://github.com",
